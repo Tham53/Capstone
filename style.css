@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+#board{
+    display:none;
+}
+
+#game{
+    /*display:none;*/
+    position: relative;
+    height: 385px;
+    background: url("gotham.jpg") repeat-x;   
+    
+}
+
+#batman{
+    height:100px;
+    position: absolute;
+    bottom: 60px;
+    left: 285px;
+}
+
+#weird{
+    height:50px;  
+    position: absolute;
+    bottom: 250px;
+    left: 300px;
+}
+
+h3{
+    float: right;
+    margin: 25px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    margin: 20px auto;
+}
